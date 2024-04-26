@@ -34,4 +34,4 @@ In this folder, you will find:
 
 ## Contact
 
-For any questions or inquiries, please contact [email@example.com](aabdalla@aimsammi.org).
+For any questions or inquiries, please contact aabdalla@aimsammi.org.
