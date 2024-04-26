@@ -1,6 +1,8 @@
 # Foundations of Machine Learning
 
-This repository contains the foundational concepts and implementations of machine learning algorithms. It serves as a starting point for understanding and implementing various machine learning techniques.
+This repository contains the foundational concepts and implementations of machine learning algorithms. It serves as a starting point for understanding and implementing various machine learning algorithms.
+
+Each algorithm is in its own folder named accordingly. The repository is implemented using Python 3.12.3.
 
 ## Table of Contents
 
@@ -13,9 +15,10 @@ The "Logistic Regression" folder contains the implementation and examples of log
 
 In this folder, you will find:
 
-- `logistic_regression.py`: Python implementation of logistic regression algorithm.
-- `data_processing.py`: Module for data preprocessing and feature engineering.
-- `examples.ipynb`: Jupyter Notebook with examples demonstrating the usage of logistic regression on different datasets.
+- `data.py`: This file contains code related to data generation and processing.
+- `utils.py`: contains utility functions or helper functions used in the logistic regression implementation.
+- `model.py`: The model.py file implements the logistic regression model. It includes a class that define the logistic regression algorithm, including the training and prediction steps. It also includes methods for model evaluation and performance metrics.
+- `main.py`: acts as the starting point for the logistic regression program. It contains the code responsible for training and testing the logistic regression model using the given datasets. This file coordinates the entire workflow by invoking functions from data.py, utils.py, and model.py to execute the essential steps for logistic regression.
 
 ## NN from Scratch
 
@@ -23,23 +26,12 @@ The "NN from Scratch" folder contains the implementation of a neural network fro
 
 In this folder, you will find:
 
-- `neural_network.py`: Python implementation of a basic neural network architecture.
-- `data_processing.py`: Module for data preprocessing and normalization.
-- `examples.ipynb`: Jupyter Notebook with examples demonstrating the usage of the neural network on various datasets.
+- `data.py`: This file contains data generation of a random dataset with 800 samples generated  using random.random.randn to generate random numbers from the normal distribution. Also, it includes splitting the data into train and test sets.
+- `utils.py`: Contains The activations function and it's derivative and other utility functions.
+- `model.py`: Contains the model for the classification algorithm.
+- `main.py`.
 
-## Contributing
-
-Contributions to this repository are welcome. If you have any suggestions, improvements, or bug fixes, please feel free to open an issue or submit a pull request.
-
-## License
-
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-## Acknowledgments
-
-- [Author Name](https://github.com/author): Thank you for the foundational code and examples.
-- [Contributor Name](https://github.com/contributor): Thank you for your valuable contributions.
 
 ## Contact
 
-For any questions or inquiries, please contact [email@example.com](mailto:email@example.com).
+For any questions or inquiries, please contact [email@example.com](aabdalla@aimsammi.org).
